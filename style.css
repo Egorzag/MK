@@ -262,7 +262,7 @@ body {
     top: 1px;
 }
 
-.loseTitle {
+.loseTitle, .winTitle {
     position: absolute;
     top: 25%;
     left: 50%;
@@ -274,3 +274,15 @@ body {
     font-family: "Mortal Kombat 3";
 }
 
+.reloadWrap {
+    position: absolute;
+    top: 8%;
+    z-index: 1000;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.reloadWrap .button {
+    margin-top: 0;
+    padding-top: 7px;
+}
